@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./07_element.js"></script>
+    <title>Element Object</title>
+    <style>
+        .blackColor {
+            background-color: black;
+        }
+
+        .blueColor {
+            background-color: blue;
+        }
+    </style>
+</head>
+<body onload="init()">
+    <section>
+        <h1>Animes</h1>
+        <p id="subtitle" class="blueColor">Dragón Ball</p>
+        <p id="content">Naruto Shippuden</p>
+        <div id="introduction">
+            <p id="theme"></p>
+            <p id="info"></p>
+        </div>
+    </section>
+    <button type="button" onclick="modifyProperties()">Modificar propiedades</button>
+    <button type="button" onclick="changeColor()">Modificar estilo</button>
+    <button type="button" onclick="switchColor()">Añadir o quitar clase</button>
+    <button type="button" onclick="changeText()">Cambiar texto</button>
+    <button type="button" onclick="addElement()">Agregar un nuevo elemento al documento</button>
+
+</body>
+</html>

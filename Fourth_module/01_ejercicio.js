@@ -1,0 +1,4 @@
+function califications()
+{
+	let list = [];
+}

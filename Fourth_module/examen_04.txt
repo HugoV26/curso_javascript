@@ -1,0 +1,31 @@
+1) ¿Por qué se dice que "Casi todo lo que se declara en Javascript es un objeto"?
+
+    La asignación de valores a una variable en realidad se trata de asignación de objetos con un valor.
+
+2) Es el tipo de objeto con una cadena de texto como valor
+
+    String
+
+3) Es una sentencia correcta entre la comparativa de un valor y un objeto.
+    Para Javascript, ambos elementos se comportan igual.
+
+4) ¿Por qué se puede acceder a un carácter de una cadena de texto mediante índices?
+    El objeto String es una representación de un objeto array, donde cada carácter está guardado en una posición de un array.
+
+5) ¿Qué valor representa el contenido de un objeto Date?
+    Milisegundos
+
+6) Es una sentencia que describe el objeto Math
+    No almacena valores, solo provee de propiedades y métodos para realizar cálculos matemáticos.
+
+7) ¿Qué información almacena el objeto window?
+    Información relacionada con la ventana y el documento html
+
+8) Nombre de la estructura creada al cargar un documento html, almacenada en un objeto tipo document
+    Document Object Model (DOM)
+
+9) ¿Qué es un objeto Element?
+    Secciones de html almacenadas en una variable, que son delimitadas por una query
+
+10) ¿Cuál es la diferencia entre añadir html mediante el método innerHTML y el método createElement?
+    No existe diferencia. Ambos crean un objeto element y es añadido al elemento que almacena este nuevo fragmento de HTML.
